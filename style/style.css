@@ -1,0 +1,258 @@
+/*Index.html:------------------------*/
+
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+
+.container-fluid {
+    background-color: #1f1f2e;
+   
+
+}
+
+.hover :hover .overlay {
+    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.text-block {
+    position: absolute;
+    bottom: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/*hides some of the images on small screen*/
+@media screen and (max-width: 600px) {
+.contact-us,    .hide {
+        display: none;
+    }
+    .text-block {
+        bottom:700px;
+    }
+}
+
+/*Most at Risk*----------------------------------*/
+
+.navbar-brand {
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    color:white;
+    text-align: center;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+    position: relative;
+}
+
+
+.navbar-brand {
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+#footer {
+    color:#ff6600;
+    display: inline;
+    text-align: center;
+}
+
+
+.list-inline {
+
+    list-style: none;
+    display: inline;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color:#ff6600
+}
+
+/*Most at Risk*/
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    
+    .hover{
+  position: relative;
+  
+}
+
+    
+
+    .overlay{
+       
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.hover:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+}    
+
+p, ul{
+   
+    color:white;
+    font-size:20px;
+    padding-top:15px;
+}
+
+b{
+    color:#ff6600;
+    font-size: 25px;
+}
+
+hr{
+    border-color: white;
+    height:5px;
+    width: 75%;
+}
+
+/*CONTACT US---------------------------*/
+
+.contact{
+    background-color: white;
+}
+
+#line, .contact-us{
+    color:#33334d;
+    border-color: #33334d;
+}
+
+.img-circle {
+    border-radius: 50%;
+    padding-bottom: 0px;
+    margin-left: 50px;
+    border-color: white;
+    border:5px solid white;
+    margin-top: 10px;
+    max-width: 175px;
+    max-height: 200px;
+}
+
+h2 {
+    color:white;
+    font-size: 1.5rem;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+
+#form{
+    width:100%;
+    padding-top: 10px;
+    text-align: center;
+    /*background-color: #f0f0f5;*/
+    margin:auto;     /*to center-align my form*/
+    }
+
+.form-control, .form-group{
+    padding: 12px 20px;
+    background-color: #f0f0f5;
+    border: 2px solid orange;
+}
+
+#inputText{
+    padding: 50px 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #intro, #form{
+    width: 100%;
+    margin-top: 0;
+    }
+}  /* form will fill screen at less than 600px*/
+
+ .contact-list{
+    color:#33334d;
+    list-style-type: none;
+    
+}
+#footer2, footer{
+   
+    text-align:center;
+}
+
+.card-text{
+    color: #33334d;
+    text-align : center;
+}
+h5{
+    text-align: center;
+}
+
+
