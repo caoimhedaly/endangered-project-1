@@ -103,7 +103,7 @@ img {
 }
 
 
-.list-inline {
+ .list-inline{
 
     list-style: none;
     display: inline;
@@ -112,7 +112,7 @@ img {
     color:#ff6600
 }
 
-/*Most at Risk*/
+
 
 
 
@@ -263,7 +263,11 @@ h2 {
     text-align:center;
 }
 
-/*save the species*/
+.btn, .btn-dark{
+    color:black;
+}
+
+/*save the species.........................*/
 
 .card-text{
     color: #33334d;
@@ -292,7 +296,7 @@ h5{
 
 /*popup*/
 
-/* Popup container - can be anything you want */
+
 .popup {
   position: relative;
   display: inline-block;
@@ -319,73 +323,90 @@ h5{
   margin-left: -80px;
 }
 
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
 
-/* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
+ 
 
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
+/*modal.........................*/
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
+.modalDialog {
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+    }
 
-/*tooltip*/
+    .modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+    }
 
-.tooltip {
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+
+    .close {
+        background: #606061;
+        color: #FFFFFF;
+        line-height: 25px;
+        position: absolute;
+        right: -12px;
+        text-align: center;
+        top: -10px;
+        width: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        -moz-box-shadow: 1px 1px 3px #000;
+        -webkit-box-shadow: 1px 1px 3px #000;
+        box-shadow: 1px 1px 3px #000;
+    }
+
+    .close:hover { background: #00d9ff; }
+    
+/*tooltip..........................*/
+
+/* Tooltip container */
+.list-inline {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
-.tooltip .tooltiptext {
+/* Tooltip text */
+.list-inline .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #555;
+  background-color: black;
   color: #fff;
   text-align: center;
-  border-radius: 6px;
   padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
+  border-radius: 6px;
+  bottom: 100%;
+  left: 50%; 
   margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
+ 
 }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
+/* Show the tooltip text when you mouse over the tooltip container */
+.list-inline:hover .tooltiptext {
   visibility: visible;
-  opacity: 1;
 }
