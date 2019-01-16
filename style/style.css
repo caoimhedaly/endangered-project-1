@@ -133,7 +133,7 @@ img {
 
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1400px) {
     
     .hover{
   position: relative;
@@ -294,34 +294,7 @@ h5{
     margin-bottom: 20px;
 }
 
-/*popup*/
 
-
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
 
 
  
@@ -382,7 +355,7 @@ h5{
 
     .close:hover { background: #00d9ff; }
     
-/*tooltip..........................*/
+/*tooltip........................*/
 
 /* Tooltip container */
 .list-inline {
