@@ -2,6 +2,8 @@
   
   ##ENDANGERED:
   
+ <http://jigsaw.w3.org/css-validator/validator$link>
+  
   ##Introduction:
   
   This project is a frontend-only website using technologies learned through my user-centric frontend development module. I chose not to follow the brief provided but instead to develop a website which aims to highlight animal species at risk of extinction. The website provides insight into the main threats to the lives of these endangered animals and information on the remaining populations. As well as documenting five of the most at-risk species globally, the website provides links to charitable organsisations which fight to prevent animal extinction. 
@@ -101,6 +103,8 @@
  iii. map - zoom in and out on the map 
  iv. media icons - on hovering over the media icons, a tooltip informs the user that the site is under construction. 
  v. on smaller screens, the navbar collapses to a dropdown menu. 
+ 
+ *I used W3 schools css validator with no error found. <https://jigsaw.w3.org/css-validator/validator>
  
  ##Deployment:
  
