@@ -68,9 +68,39 @@
  
   *Google maps API <https://cloud.google.com/maps-platform/> - using google maps for developers i was able to insert a map with the charity location. 
  
+ ##Sources:
+ 
+ W3Schools <https://www.w3schools.com/> - I followed a tutorial on w3schools in order to implement the tooltips. 
+ 
+ JSfiddle <https://jsfiddle.net> - I followed a tutorial on js fiddle to create modals.  
  
  ##Testing:
  
+ *Home Page : 
+ i.The home page is mobile responsive, the navbar collapses to a dropdown menu accessed via a button button at a width of 990px. 
+ ii.Some of the images in the gallery are hidden on a small screen.
+ 
+ *Most at Risk : 
+ i. click on the Most at Risk link in the navbar, it takes you to this page. 
+ ii. On a large screen, when you hover over each image, white text transitions from the left on a semi-transparent background.
+ iii. On smaller screens, the text 'click image' appears at the bottom left corner of each image to inform you that you must click the image to reveal the text. 
+ iv. media icons - on hovering over the media icons, a tooltip informs the user that the site is under construction. 
+ v. On smaller screens, each article of text lays below the respective image. On larger screens the text lays to the right of the image. 
+ vi. Again the dropdown menu functions as a navbar on smaller screens on this page. 
+ 
+ *Save the species : 
+  i. click the save the species link in the navbar, this page opens.
+  ii. click on each of the links on each card, a modal opens to inform you that the site is under construction. 
+  iii. click on the X at the top of the modal box, the modal closes.
+  iv. media icons - on hovering over the media icons, a tooltip informs the user that the site is under construction. 
+  
+ *Contact Us :
+ i. click on the contact us link in the navbar to open this page. 
+ ii. form - click the dropdown menu on the form to chose you query
+          - click the submit button and a modal opens to inform the user that this is under construction. 
+ iii. map - zoom in and out on the map 
+ iv. media icons - on hovering over the media icons, a tooltip informs the user that the site is under construction. 
+ v. on smaller screens, the navbar collapses to a dropdown menu. 
  
  ##Deployment:
  
