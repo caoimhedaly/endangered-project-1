@@ -245,15 +245,15 @@ h2 {
 
 }
 
-/*bootstrap form*/
+
 
 #form {
     width: 100%;
     padding-top: 10px;
     text-align: center;
-    /*background-color: #f0f0f5;*/
+   
     margin: auto;
-    /*to center-align my form*/
+
 }
 
 .form-control,
