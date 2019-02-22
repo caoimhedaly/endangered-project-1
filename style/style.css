@@ -39,13 +39,19 @@ body {
 /*hides some of the images on small screen*/
 
 @media screen and (max-width: 600px) {
-    .hide {
-        display: none;
-    }
+  
     .text-block {
         position: absolute;
         bottom: 700px;
     }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+    
 }
 
 /*Most at Risk*----------------------------------*/
@@ -207,6 +213,10 @@ hr {
 
 .contact {
     background-color: white;
+}
+
+#contact{
+    text-align: center;
 }
 
 #line,
